@@ -1,0 +1,16 @@
+EXAMPLECONFIG:
+  GENERALCONFIGS:
+    WORLD: world
+    REGION: __GLOBAL__
+    TIME: DAY
+  CONDITIONS:
+    PLAYER:
+      Condition1: MOBSINRADIUS{value=>5;radiu=10}
+  MUSIC:
+    FIRST:
+      FILE: mymusic:medieval.test
+      ORDER: RANDOM
+      CHANNEL: MUSIC
+      VOLUME: 1
+      PITCH: 1
+      REPEAT: 100
